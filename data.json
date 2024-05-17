@@ -4,70 +4,70 @@
       "id": 0,
       "project_name": "Random Quote Generator",
       "description": "A program that displays a randomly selected quote at a set interval, or each time the user clicks a button.",
-      "technologies": ["JavaScript"],
+      "technologies": ["HTML", "CSS", "JavaScript"],
       "live_link": "https://cassianebel.github.io/a_random_quote_generator-v1/",
       "github_link": "https://github.com/cassianebel/a_random_quote_generator-v1",
       "image_urls": [
-        "/images/quote-sq-5.png",
-        "/images/quote-3.png",
-        "/images/quote-4.png",
-        "/images/quote-5.png",
-        "/images/quote-7.png"
+        "/static/images/quote-sq-5.png",
+        ["/static/images/quote-3.png", "a randomly chosen quote (Worrying is like paying a debt you don't owe.) with a randomly chosen background color (red)"],
+        ["/static/images/quote-4.png", "a randomly chosen quote (Whatever you do, always give 100% - unless you're donating blood.) with a randomly chosen background color (purple)"],
+        ["/static/images/quote-5.png", "a randomly chosen quote (Do or do not. There is no try.) with a randomly chosen background color (tan)"]
       ]
     },
     {
       "id": 1,
       "project_name": "Data Pagination and Filtering",
       "description": "A program that displays several pages of student data that the user can easily navigate and view.",
-      "technologies": ["JavaScript"],
+      "technologies": ["HTML", "CSS", "JavaScript"],
       "live_link": "https://cassianebel.github.io/data-pagination-and-filtering-v1/",
       "github_link": "https://github.com/cassianebel/data-pagination-and-filtering-v1",
       "image_urls": [
-        "/images/paging-sq-1.png",
-        "/images/paging-2.png",
-        "/images/paging-2.png",
-        "/images/paging-filter-1.png"
+        "/static/images/paging-sq-1.png",
+        ["/static/images/paging-1.png", "screenshot of the app displaying students and a search bar"],
+        ["/static/images/paging-2.png", "screenshot of the app displaying students and the pagination buttons"],
+        ["/static/images/paging-filter-1.png", "screenshot of the app displaying filtered search results"]
       ]
     },
     {
       "id": 2,
       "project_name": "Interactive Form",
       "description": "A JavaScript enhanced form that is engaging, interactive, and easy to use.",
-      "technologies": ["JavaScript"],
+      "technologies": ["HTML", "CSS", "JavaScript"],
       "live_link": "https://cassianebel.github.io/interactive-form-v3/",
       "github_link": "https://github.com/cassianebel/interactive-form-v3",
       "image_urls": [
-        "/images/form-sq-1.png",
-        "/images/form-1.png",
-        "/images/form-2.png",
-        "/images/form-3.png"
+        "/static/images/form-sq-1.png",
+        ["/static/images/form-1.png", "screenshot of the form with focus set to the name field on load"],
+        ["/static/images/form-2.png", "screenshot of the form with helpful errors displayed"],
+        ["/static/images/form-3.png", "screenshot of the form with helpful errors displayed"]
       ]
     },
     {
       "id": 3,
       "project_name": "OOP Game Show App",
       "description": "A browser-based, word guessing game called 'Phrase Hunter'. A player tries to guess the phrase by selecting individual letters from an onscreen keyboard.",
-      "technologies": ["JavaScript", "CSS"],
+      "technologies": ["HTML", "CSS", "JavaScript"],
       "live_link": "https://cassianebel.github.io/oop_game-v2/",
       "github_link": "https://github.com/cassianebel/oop_game-v2",
       "image_urls": [
-        "/images/game-sq-2.png",
-        "/images/game-1.png",
-        "/images/game-2.png",
-        "/images/game-3.png"
+        "/static/images/game-sq-2.png",
+        ["/static/images/game-1.png", "screenshot of the start screen"],
+        ["/static/images/game-2.png", "screenshot of the beginning of a game - a hidden phrase, alphabet of unsused keys and 5 lives remaining"],
+        ["/static/images/game-3.png", "screenshot of the middle of a game - a partially hidden phrase, alphabet of used and unused keys, 2 lives remaining"]
       ]
     },
     {
       "id": 4,
       "project_name": "Public API Requests",
       "description": "An employee directory created by communicating with a third-party API.",
-      "technologies": ["JavaScript", "CSS"],
+      "technologies": ["HTML", "CSS", "JavaScript"],
       "live_link": "https://cassianebel.github.io/random-user-public-api-request/",
       "github_link": "https://github.com/cassianebel/random-user-public-api-request",
       "image_urls": [
-        "/images/staff-sq-2.png",
-        "/images/staff-1.png",
-        "/images/staff-2.png"
+        "/static/images/staff-sq-2.png",
+        ["/static/images/staff-1.png", "screenshot of the employee directory page"],
+        ["/static/images/staff-2.png", "screenshot of an open modal with an employee's details"],
+        ["/static/images/staff-3.png", "screenshot of an open modal with the last employee's details and the next button is disabled"]
       ]
     }
   ]

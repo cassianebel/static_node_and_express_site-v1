@@ -12,16 +12,23 @@ app.use( '/static', express.static('public') );
  */
 
 app.get("/", (req, res, next) => {
-  res.render('index', data.projects);
+  res.render('index', data);
 });
 
 app.get("/about", (req, res, next) => {
   res.render('about');
 });
 
-app.get("/project/:id", (req, res, next) => {
+app.get("/projects/:id", (req, res, next) => {
   const projectId = req.params.id;
-  res.render('project', data.projects[projectId]);
+  const project = data.projects[projectId];
+  if(project) {
+    res.render('project', project);
+  } else {
+    const err = new Error('Sorry, the requested page was not found.');
+    err.status = 404;
+    next(err);
+  }
 });
 
 

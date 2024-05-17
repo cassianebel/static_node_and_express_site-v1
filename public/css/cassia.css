@@ -1,0 +1,82 @@
+body {
+  background-color: #2d2e2e;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color: #2D2E2E;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+}
+
+p {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color: #2D2E2E;
+}
+
+.header span {
+  font-family: "Poiret One", sans-serif;
+}
+
+.sidebar {
+  background-color: #2d2e2e;
+}
+
+.sidebar h5 {
+  color: #BCABAE;
+  font-size: 2rem;
+}
+
+.sidebar p {
+  color: #bcabae;
+}
+
+.sidebar a {
+  font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: #BCABAE;
+}
+
+.portfolio-intro h1 {
+  color: #2D2E2E;
+}
+
+.projects-box h5 {
+  font-family: "Poiret One", sans-serif;
+}
+
+nav a {
+  font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: #716969;
+}
+
+.btn-link {
+  background-color: #716969;
+  color: #FFF;
+  font-family: "Poiret One", sans-serif;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.btn-link:hover,
+.btn-link:focus,
+.btn-link:active {
+  background-color: #BCABAE;
+  box-shadow: 0px 3px 5px 0px rgba(45,46,46,.9);
+}

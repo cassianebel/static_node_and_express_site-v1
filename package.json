@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/cassianebel/static_node_and_express_site-v1/issues"
   },
-  "homepage": "https://github.com/cassianebel/static_node_and_express_site-v1#readme",
+  "homepage": "https://github.com/cassianebel/static_node_and_express_site-v1#app.js",
   "dependencies": {
     "express": "^4.19.2",
     "pug": "^3.0.2"

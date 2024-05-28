@@ -19,6 +19,7 @@ p {
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
+  font-size: 1rem;
   color: #2D2E2E;
 }
 
@@ -37,12 +38,13 @@ p {
 
 .sidebar p {
   color: #bcabae;
+  font-size: 1rem;
 }
 
 .sidebar a {
   font-family: "Poiret One", sans-serif;
   font-weight: 400;
-  font-size: 13px;
+  font-size: 1rem;
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #BCABAE;
@@ -68,7 +70,7 @@ nav a {
   align-items: center;
   font-family: "Poiret One", sans-serif;
   font-weight: 400;
-  font-size: 13px;
+  font-size: 1rem;
   letter-spacing: 2.5px;
   text-transform: uppercase;
   color: #716969;
@@ -107,4 +109,8 @@ nav a:hover {
 
 .project-img {
   box-shadow: none;
+}
+
+.box li {
+  font-size: 1rem;
 }

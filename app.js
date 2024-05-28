@@ -39,6 +39,7 @@ app.get("/projects/:id", (req, res, next) => {
 app.use((req, res, next) => {
   const err = new Error('Sorry, the requested page was not found.');
   err.status = 404;
+  console.error(err.status, err.message);
   res.render('page-not-found', {
     message: err.message,
     error: err
@@ -50,6 +51,7 @@ app.use((err, req, res, next) => {
     const err = new Error('Sorry, there has been an error.');
     err.status = 500;
   }
+  console.error(err.status, err.message);
   res.render('error', {
     message: err.message,
     error: err

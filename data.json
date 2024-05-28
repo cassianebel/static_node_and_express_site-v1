@@ -3,7 +3,7 @@
     {
       "id": 0,
       "project_name": "Random Quote Generator",
-      "description": "A program that displays a randomly selected quote at a set interval, or each time the user clicks a button.",
+      "description": "A program that displays a randomly selected quote at a set interval, or each time the user clicks a button. Additionally, the background is randomly chosen and changes with each quote.",
       "technologies": ["HTML", "CSS", "JavaScript"],
       "live_link": "https://cassianebel.github.io/a_random_quote_generator-v1/",
       "github_link": "https://github.com/cassianebel/a_random_quote_generator-v1",
@@ -17,7 +17,7 @@
     {
       "id": 1,
       "project_name": "Data Pagination and Filtering",
-      "description": "A program that displays several pages of student data that the user can easily navigate and view.",
+      "description": "A program that displays several pages of student data that the user can easily navigate and view using the pagination buttons. Additionally, the user can search for a specific student by name.",
       "technologies": ["HTML", "CSS", "JavaScript"],
       "live_link": "https://cassianebel.github.io/data-pagination-and-filtering-v1/",
       "github_link": "https://github.com/cassianebel/data-pagination-and-filtering-v1",
@@ -31,7 +31,7 @@
     {
       "id": 2,
       "project_name": "Interactive Form",
-      "description": "A JavaScript enhanced form that is engaging, interactive, and easy to use.",
+      "description": "A JavaScript enhanced form that is engaging, interactive, and easy to use. The focus is initially set for the user on the first input. Unnecessary fields are hidden unless they are needed based on user input. Conflicting options are prevented from being chosen. And helpful error messages are displayed when the user enters invalid information.",
       "technologies": ["HTML", "CSS", "JavaScript"],
       "live_link": "https://cassianebel.github.io/interactive-form-v3/",
       "github_link": "https://github.com/cassianebel/interactive-form-v3",
@@ -45,7 +45,7 @@
     {
       "id": 3,
       "project_name": "OOP Game Show App",
-      "description": "A browser-based, word guessing game called 'Phrase Hunter'. A player tries to guess the phrase by selecting individual letters from an onscreen keyboard.",
+      "description": "A browser-based, word guessing game called 'Phrase Hunter'. A player tries to guess the phrase by selecting individual letters from an onscreen keyboard or the physical keyboard. And fun animations help to indicate the correct and incorrect guesses.",
       "technologies": ["HTML", "CSS", "JavaScript"],
       "live_link": "https://cassianebel.github.io/oop_game-v2/",
       "github_link": "https://github.com/cassianebel/oop_game-v2",
@@ -59,7 +59,7 @@
     {
       "id": 4,
       "project_name": "Public API Requests",
-      "description": "An employee directory created by communicating with a third-party API.",
+      "description": "An employee directory created by communicating with a third-party API - 'The Random User Generator'. A user can view a list of employees, select an employee to view more details, and cycle through each employee's details. They can also search for an employee by name.",
       "technologies": ["HTML", "CSS", "JavaScript"],
       "live_link": "https://cassianebel.github.io/random-user-public-api-request/",
       "github_link": "https://github.com/cassianebel/random-user-public-api-request",
